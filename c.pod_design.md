@@ -637,6 +637,8 @@ kubectl delete job busybox
 
 ## Cron jobs
 
+kubernetes.io > Documentation > Tasks > Run Jobs > [Running Automated Tasks with a CronJob](https://kubernetes.io/docs/tasks/job/automated-tasks-with-cron-jobs/)
+
 ### Create a cron job with image busybox that runs on a schedule of "*/1 * * * *" and writes 'date; echo Hello from the Kubernetes cluster' to standard output
 
 <details><summary>show</summary>
